@@ -28,12 +28,12 @@ export const WEMERoot1 = ({}) => {
           </FlexColumn>
           <FlexRow>
             <BlackFlexRow>
-                <Text2>Roadmap</Text2>
-                <Text2>Story</Text2>
-                <Text2><a href="#collections">Collections</a></Text2>
-                <Text2>Team</Text2>
-                <Text2>FAQ</Text2>
-                <Text2>Rewards</Text2>
+                <Text2><a href="#roadmap" style={{color: "inherit", textDecoration: "inherit"}}>Roadmap</a></Text2>
+                <Text2><a href="#story" style={{color: "inherit", textDecoration: "inherit"}}>Story</a></Text2>
+                <Text2><a href="#collections" style={{color: "inherit", textDecoration: "inherit"}}>Collections</a></Text2>
+                <Text2><a href="#team" style={{color: "inherit", textDecoration: "inherit"}}>Team</a></Text2>
+                <Text2><a href="#faq" style={{color: "inherit", textDecoration: "inherit"}}>FAQ</a></Text2>
+                <Text2><a href="#rewards" style={{color: "inherit", textDecoration: "inherit"}}>Rewards</a></Text2>
             </BlackFlexRow>
             <FREAKYsample
               src={`https://file.rendit.io/n/Zb76PJ9UgWgF0ds6QcQY.png`}
@@ -388,6 +388,7 @@ const BlackFlexRow = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
+  z-index: 1000;
 `;
 const FREAKYsample = styled.img`
   width: 672px;
