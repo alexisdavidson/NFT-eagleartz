@@ -13,7 +13,7 @@
   overflow: hidden;
 }
 .heroimagebackground {
-  position: relative;
+  /* position: relative;
   gap: 48px;
   display: flex;
   flex-direction: row;
@@ -24,7 +24,7 @@
   background-position: 50% 50%;
   background-blend-mode: normal, normal;
   background-image: linear-gradient(rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29)),
-    url(https://file.rendit.io/n/0TT8KdSa7D1KYV5ixLN6.png);
+    url(https://file.rendit.io/n/0TT8KdSa7D1KYV5ixLN6.png); */
 }
 .flexColumn {
   width: 632px;
