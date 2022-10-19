@@ -28,28 +28,12 @@ export const WEMERoot1 = ({}) => {
           </FlexColumn>
           <FlexRow>
             <BlackFlexRow>
-              {[
-                {
-                  childText: `Roadmap`,
-                },
-                {
-                  childText: `Story`,
-                },
-                {
-                  childText: `Collections`,
-                },
-                {
-                  childText: `Team`,
-                },
-                {
-                  childText: `FAQ`,
-                },
-                {
-                  childText: `Rewards`,
-                },
-              ].map((data) => (
-                <Text2>{data.childText}</Text2>
-              ))}
+                <Text2>Roadmap</Text2>
+                <Text2>Story</Text2>
+                <Text2><a href="#collections">Collections</a></Text2>
+                <Text2>Team</Text2>
+                <Text2>FAQ</Text2>
+                <Text2>Rewards</Text2>
             </BlackFlexRow>
             <FREAKYsample
               src={`https://file.rendit.io/n/Zb76PJ9UgWgF0ds6QcQY.png`}
@@ -96,7 +80,7 @@ export const WEMERoot1 = ({}) => {
         <Ellipse1 src={`https://file.rendit.io/n/bhfXqgBHNHowhJcsXdMT.svg`} />
         <Ellipse src={`https://file.rendit.io/n/01bMWFpBfmCLkZZKZipn.svg`} />
         <FlexColumn5>
-          <Text9>COLLECTIONS</Text9>
+          <Text9 id="collections">COLLECTIONS</Text9>
           <FlexRow2>
             <Image2 src={`https://file.rendit.io/n/6eUTd46dNeBc46XC322p.svg`} />
             <Image3 src={`https://file.rendit.io/n/bVhERnRc1qo2K8VBjBIc.svg`} />
@@ -404,7 +388,6 @@ const BlackFlexRow = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: rgba(0, 0, 0, 0.9);
 `;
 const FREAKYsample = styled.img`
   width: 672px;
