@@ -319,7 +319,7 @@ const WEMERootRoot = styled.div`
   justify-content: flex-start;
 `;
 const WhiteFlexColumn = styled.div`
-  width: 100%;
+  width: auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -442,7 +442,7 @@ const Element6 = styled.div`
   transform-origin: 0px 0px;
 `;
 const MidnightBlueFlexRow = styled.div`
-  width: 100%;
+  width: auto;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -658,7 +658,7 @@ const Element18 = styled.div`
   transform-origin: 0px 0px;
 `;
 const MidnightBlueFlexRow1 = styled.div`
-  width: 100%;
+  width: auto;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -722,8 +722,8 @@ const Text10 = styled.div`
   white-space: nowrap;
 `;
 const MidnightBlueFlexColumn = styled.div`
-  //width: 100%;
-  width: 765px;
+  width: auto;
+  // width: 765px;
   height: 574px;
   position: relative;
   gap: 47px;
@@ -852,7 +852,7 @@ const Paragraph6 = styled.div`
 `;
 const MidnightBlueFlexColumn1 = styled.div`
   //width: 1086px;
-  width: 100%;
+  width: auto;
   height: 808px;
   position: relative;
   display: flex;
