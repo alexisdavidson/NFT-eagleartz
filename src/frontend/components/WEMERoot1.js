@@ -63,7 +63,7 @@ export const WEMERoot1 = ({}) => {
             </Element14>
           </FlexRow1>
           <FlexColumn4>
-            <Text8>WE RABBITS</Text8>
+            <Text8 id="story">WE RABBITS</Text8>
             <Paragraph2>
               Is the first season of this art project, it includes ALLY, FREAKY
               & SINGLY collections.
@@ -117,7 +117,7 @@ export const WEMERoot1 = ({}) => {
       <MidnightBlueFlexColumn>
         <Element19 />
         <Element20 />
-        <Text14>RARITY TABLE</Text14>
+        <Text14 id="team">RARITY TABLE</Text14>
         <FlexColumn6>
           <ROW1>
             <FlexRow3>
@@ -155,7 +155,7 @@ export const WEMERoot1 = ({}) => {
           <Element23 />
           <Element24 />
         </Element22>
-        <Text23>FAQ</Text23>
+        <Text23 id="faq">FAQ</Text23>
         <FlexColumn7>
           <FlexColumn8>
             <FlexRow7>
