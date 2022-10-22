@@ -1,18 +1,22 @@
 
 import { Image, Row, Col } from 'react-bootstrap'
-import skull from './assets/FREAKYsample.png'
+import skull from './assets/Image1.svg'
 import logo from './images/logo.png'
 
-const Top = () => {
+const WeRabbits = () => {
     return (
-        <Row className="top mt-5 p-3">
+        <Row className="mt-5 p-3">
+            <h1 className="mb-5" id="werabbits"> WE RABBITS</h1>
+            <Col className="col-12 col-lg-6">
+                <img src={skull} alt="Presentation image" />
+            </Col>
             <Col className="col-12 col-lg-6 text-light">
                 <Row className="my-4">
                     <p style={{
                         textAlign: "left",
                         fontSize: "7vh"
                     }}>
-                        UNLOCK the magic of art. Join WE and become yourself 2.0
+                        WE RABBITS
                     </p>
                 </Row>
                 <Row className="my-5">
@@ -20,14 +24,13 @@ const Top = () => {
                         textAlign: "left",
                         fontSize: "20px"
                     }}>
-                        WE&ME is an art project, related to streetwear and unexpected airdrops.
+                        Is the first season of this art project, it includes ALLY, FREAKY & SINGLY collections.
+                        <br/><br/>
+                        Be a part of a historical family about art.
                     </p>
                 </Row>
-            </Col>
-            <Col className="col-12 col-lg-6">
-                <img src={skull} alt="Presentation image" />
             </Col>
         </Row>
     );
 }
-export default Top
+export default WeRabbits

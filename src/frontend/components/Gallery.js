@@ -1,34 +1,48 @@
 import {  Row, Col } from 'react-bootstrap'
-import skull1 from './images/skulls/1.png'
-import skull2 from './images/skulls/2.png'
-import skull3 from './images/skulls/3.png'
-import skull4 from './images/skulls/4.png'
+import skull1 from './assets/Image2.svg'
+import skull2 from './assets/Image3.svg'
+import skull3 from './assets/Image4.svg'
 
 const Gallery = () => {
     return (
         <Row className="p-3" style={{
                         fontSize: "25px"
         }}>
-            <Col className="col-12 col-lg-6 col-xl-3 mb-4">
-                <img src={skull1} alt="Skull 1" className="rounded" style={{
-                    border: "3px solid white"
-                    }}/>
-            </Col>
-            <Col className="col-12 col-lg-6 col-xl-3 mb-4">
-                <img src={skull2} alt="Skull 2" className="rounded" style={{
-                    border: "3px solid white"
-                    }}/>
-            </Col>
-            <Col className="col-12 col-lg-6 col-xl-3 mb-4">
-                <img src={skull3} alt="Skull 3" className="rounded" style={{
-                    border: "3px solid white"
-                    }}/>
-            </Col>
-            <Col className="col-12 col-lg-6 col-xl-3 mb-4">
-                <img src={skull4} alt="Skull 4" className="rounded" style={{
-                    border: "3px solid white"
-                    }}/>
-            </Col>
+            <Row>
+                <h1 className="mb-5" id="werabbits">COLLECTIONS</h1>
+                <Col className="col-12 col-lg-6 col-xl-4 mb-4">
+                    <Row>
+                        <img src={skull1} />
+                    </Row>
+                    <Row>
+                        <p>ALLY</p>
+                    </Row>
+                </Col>
+                <Col className="col-12 col-lg-6 col-xl-4 mb-4">
+                    <Row>
+                        <img src={skull2} />
+                    </Row>
+                    <Row>
+                        <p>FREAKY</p>
+                    </Row>
+                </Col>
+                <Col className="col-12 col-lg-6 col-xl-4 mb-4">
+                    <Row>
+                        <img src={skull3} />
+                    </Row>
+                    <Row>
+                        <p>SINGLY</p>
+                    </Row>
+                </Col>
+            </Row>
+            <Row>
+                <p>
+                    Let’s break it up. It’s simple.<br/>
+                    ALLY is a generative collection of 10k. (FREE)<br/>
+                    FREAKY is a generative collection of 10k. (0.03ETH)<br/>
+                    SINGLY is a 1/1 made collection of 60. (0.1ETH)
+                </p>
+            </Row>
         </Row>
     );
 }
