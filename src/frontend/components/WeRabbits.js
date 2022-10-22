@@ -6,7 +6,6 @@ import logo from './images/logo.png'
 const WeRabbits = () => {
     return (
         <Row className="mt-5 p-3">
-            <h1 className="mb-5" id="werabbits"> WE RABBITS</h1>
             <Col className="col-12 col-lg-6">
                 <img src={skull} alt="Presentation image" />
             </Col>

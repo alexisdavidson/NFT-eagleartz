@@ -106,7 +106,7 @@ function App() {
           </Container>
           <div>
             <Container fluid="sm" className=" px-3 pt-3">
-              <Footer />
+              {/* <Footer /> */}
             </Container>
           </div>
         </div>
