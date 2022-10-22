@@ -5,12 +5,12 @@ import logo from './images/logo.png'
 
 const Top = () => {
     return (
-        <Row className="top mt-5 p-3">
+        <Row className="top p-3">
             <Col className="col-12 col-lg-6 text-light">
                 <Row className="my-4">
                     <p style={{
                         textAlign: "left",
-                        fontSize: "7vh"
+                        fontSize: "6vh"
                     }}>
                         UNLOCK the magic of art. Join WE and become yourself 2.0
                     </p>

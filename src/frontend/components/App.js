@@ -88,7 +88,7 @@ function App() {
   return (
     <BrowserRouter>
         <div className="App" >
-          <Container fluid="sm" className="pt-3">
+          <Container className="pt-3 px-0">
             <Row>
               <Col>
                 <Navigation web3Handler={web3Handler} account={account} />
