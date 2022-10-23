@@ -6,27 +6,27 @@ import styled from "styled-components";
 
 const RarityTable = () => {
     return (
-        <Row className="mt-5 p-3">
+        <Row className="raritytable">
             <h1 className="mb-5" id="raritytable">RARITY TABLE</h1>
-            <Row>
+            <Row className="rarityrow" style={{fontWeight: "bold", textAlign:"left"}}>
                 <Col>
-                    <div style={{color: "#00e4a7", fontSize: "5vh"}}>70%</div>
-                    <div style={{color: "rgba(255, 255, 255, 0.8)"}}>common</div>
+                    <span style={{color: "#00e4a7", fontSize: "5vh"}}>70%</span>
+                    <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "2vh"}}>common</span>
                 </Col>
                 <Col>
-                    <div style={{color: "#83adff", fontSize: "5vh"}}>15%</div>
-                    <div style={{color: "rgba(255, 255, 255, 0.8)"}}>rare</div>
+                    <span style={{color: "#83adff", fontSize: "5vh"}}>15%</span>
+                    <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "2vh"}}>rare</span>
                 </Col>
             </Row>
           <Line src={`https://file.rendit.io/n/7l74A2cVD9fZhmAD6CGq.svg`} />
-            <Row>
+            <Row className="rarityrow" style={{fontWeight: "bold", textAlign:"left"}}>
                 <Col>
-                    <div style={{color: "#ffc600", fontSize: "5vh"}}>10%</div>
-                    <div style={{color: "rgba(255, 255, 255, 0.8)"}}>epic</div>
+                    <span style={{color: "#ffc600", fontSize: "5vh"}}>10%</span>
+                    <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "2vh"}}>epic</span>
                 </Col>
                 <Col>
-                    <div style={{color: "#ff0000", fontSize: "5vh"}}>70%</div>
-                    <div style={{color: "rgba(255, 255, 255, 0.8)"}}>rare</div>
+                    <span style={{color: "#ff0000", fontSize: "5vh"}}>5%</span>
+                    <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "2vh"}}>legendary</span>
                 </Col>
             </Row>
           <Line1 src={`https://file.rendit.io/n/7l74A2cVD9fZhmAD6CGq.svg`} />

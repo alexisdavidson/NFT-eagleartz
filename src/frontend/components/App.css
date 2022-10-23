@@ -27,6 +27,18 @@
   margin-bottom: 15vh;
 }
 
+.raritytable {
+  padding-left: 20vh;
+  padding-right: 20vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.rarityrow {
+  padding-left: 35vh;
+  padding-right: 15vh;
+}
+
 .collectionItem {
   padding-top: 4vh;
   padding-left: 8vh;
