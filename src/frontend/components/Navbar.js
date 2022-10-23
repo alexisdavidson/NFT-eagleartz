@@ -12,7 +12,7 @@ const Navigation = ({ web3Handler, account }) => {
     return (
         <Row className="px-4 pt-4 mt-3">
             <Col className="d-none d-lg-block col-5 text-light">
-                <Image src={logo} className="d-flex" style={{
+                <Image src={logo} className="ms-4 d-flex" style={{
                     width: "150px"
                 }}/>
             </Col>
@@ -24,9 +24,9 @@ const Navigation = ({ web3Handler, account }) => {
                         fontSize: "1.7vh"
                     }}>
                         <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Roadmap</a>
-                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Story</a>
+                        {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Story</a> */}
                         <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Collections</a>
-                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Team</a>
+                        {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Team</a> */}
                         <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>FAQ</a>
                         <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Rewards</a>
                         

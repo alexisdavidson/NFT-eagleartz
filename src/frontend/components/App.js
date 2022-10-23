@@ -86,9 +86,9 @@ function App() {
 
   return (
     <BrowserRouter>
-        <div className="App m-0">
-            <Row className="m-0">
-              <Col className="m-0">
+        <div className="App m-0 p-0">
+            <Row className="m-0 p-0">
+              <Col className="m-0 p-0">
                   <div>
                     <Top web3Handler={web3Handler} account={account} />
                     <WeRabbits />
