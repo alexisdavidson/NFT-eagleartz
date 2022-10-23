@@ -14,26 +14,34 @@
 }
 
 .werabbits {
-  padding-left: 25vh;
-  padding-right: 25vh;
+  max-width: 140vh;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 15vh;
   margin-bottom: 15vh;
 }
 
 .collection {
-  padding-left: 27vh;
-  padding-right: 27vh;
+  max-width: 140vh;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 15vh;
   margin-bottom: 15vh;
 }
 
 .raritytable {
-  padding-left: 20vh;
-  padding-right: 20vh;
   margin-top: 15vh;
   margin-bottom: 15vh;
   margin-left: auto;
   margin-right: auto;
+}
+
+.faq {
+  max-width: 120vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
 }
 
 .raritytabletable {

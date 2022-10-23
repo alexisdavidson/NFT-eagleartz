@@ -45,9 +45,9 @@ const Faq = () => {
     };
 
     return (
-        <Row className="my-5 p-3">
+        <Row className="faq">
             <Col className="text-light">
-                <h1 id="mint">FAQ</h1>
+                <h1 className="mb-5" id="mint">FAQ</h1>
                 <Row style={{textAlign: "left"}}>
                     <ReactFaq data={data} styles={styles} config={config} />
                 </Row>
