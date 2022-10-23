@@ -13,7 +13,6 @@ const Top = ({ web3Handler, account }) => {
                     <Row className="my-auto pinkText">
                         <p style={{
                             textAlign: "left",
-                            fontSize: "6vh"
                         }}>
                             <span className="greenText">UNLOCK</span> the magic of art. Join WE and become yourself 2.0
                         </p>

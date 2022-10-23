@@ -5,20 +5,19 @@ import logo from './images/logo.png'
 
 const WeRabbits = () => {
     return (
-        <Row className="mt-5 p-3">
+        <Row className="werabbits">
             <Col className="col-12 col-lg-6">
                 <img src={skull} alt="Presentation image" />
             </Col>
-            <Col className="col-12 col-lg-6 text-light">
-                <Row className="my-4">
-                    <p style={{
-                        textAlign: "left",
-                        fontSize: "7vh"
+            <Col className="ps-5 my-auto col-12 col-lg-6 text-light">
+                <Row className="pinkText">
+                    <div style={{
+                        textAlign: "left"
                     }}>
                         WE RABBITS
-                    </p>
+                    </div>
                 </Row>
-                <Row className="my-5">
+                <Row>
                     <p style={{
                         textAlign: "left",
                         fontSize: "20px"
