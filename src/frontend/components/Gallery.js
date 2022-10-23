@@ -5,43 +5,41 @@ import skull3 from './assets/Image4.svg'
 
 const Gallery = () => {
     return (
-        <Row className="p-3" style={{
-                        fontSize: "25px"
-        }}>
+        <Row className="collection">
             <Row>
                 <h1 className="mb-5" id="werabbits">COLLECTIONS</h1>
-                <Col className="col-12 col-lg-6 col-xl-4 mb-4">
+                <Col className="collectionItem col-12 col-lg-6 col-xl-4">
                     <Row>
                         <img src={skull1} />
                     </Row>
                     <Row>
-                        <p>ALLY</p>
+                        <div className="collectionItemText">ALLY</div>
                     </Row>
                 </Col>
-                <Col className="col-12 col-lg-6 col-xl-4 mb-4">
+                <Col className="collectionItem col-12 col-lg-6 col-xl-4">
                     <Row>
                         <img src={skull2} />
                     </Row>
                     <Row>
-                        <p>FREAKY</p>
+                        <div className="collectionItemText">FREAKY</div>
                     </Row>
                 </Col>
-                <Col className="col-12 col-lg-6 col-xl-4 mb-4">
+                <Col className="collectionItem col-12 col-lg-6 col-xl-4">
                     <Row>
                         <img src={skull3} />
                     </Row>
                     <Row>
-                        <p>SINGLY</p>
+                        <div className="collectionItemText">SINGLY</div>
                     </Row>
                 </Col>
             </Row>
             <Row>
-                <p>
-                    Let’s break it up. It’s simple.<br/>
-                    ALLY is a generative collection of 10k. (FREE)<br/>
-                    FREAKY is a generative collection of 10k. (0.03ETH)<br/>
-                    SINGLY is a 1/1 made collection of 60. (0.1ETH)
-                </p>
+                <div className="CollectionDescription">
+                    Let’s break it up. <span className="pinkTextColor">It’s simple.</span><br/>
+                    <span className="boldText">ALLY</span> is a generative collection of 10k. (FREE)<br/>
+                    <span className="boldText">FREAKY</span> is a generative collection of 10k. (0.03ETH)<br/>
+                    <span className="boldText">SINGLY</span> is a 1/1 made collection of 60. (0.1ETH)
+                </div>
             </Row>
         </Row>
     );

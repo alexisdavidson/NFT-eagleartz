@@ -20,11 +20,43 @@
   margin-bottom: 15vh;
 }
 
+.collection {
+  padding-left: 27vh;
+  padding-right: 27vh;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.collectionItem {
+  padding-top: 4vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+.collectionItemText {
+  margin-top: 4vh;
+  font-size: 5vh;
+}
+
+.CollectionDescription {
+  margin-top: 3vh;
+  font-size: 2vh;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
 h1, h2, .pinkText {
   color: #ff0fac;
   font-weight: bold;
   line-height: 7vh;
   font-size: 5.5vh;
+}
+
+.pinkTextColor {
+  color: #ff0fac;
+  font-weight: bold;
 }
 
 .greenText {
