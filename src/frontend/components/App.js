@@ -4,7 +4,6 @@ import {
   Route
 } from "react-router-dom"
 import './App.css';
-import Navigation from './Navbar';
 import Top from './Top';
 import WeRabbits from './WeRabbits';
 import RarityTable from './RarityTable';
@@ -87,13 +86,11 @@ function App() {
 
   return (
     <BrowserRouter>
-        <div className="App" >
-          <Container className="pt-3 px-0">
-            <Row>
-              <Col>
-                <Navigation web3Handler={web3Handler} account={account} />
+        <div className="App m-0">
+            <Row className="m-0">
+              <Col className="m-0">
                   <div>
-                    <Top />
+                    <Top web3Handler={web3Handler} account={account} />
                     <WeRabbits />
                     {/* <Stats stats={stats} /> */}
                     <Gallery />
@@ -103,7 +100,6 @@ function App() {
                   </div>
               </Col>
             </Row>
-          </Container>
           <div>
             <Container fluid="sm" className=" px-3 pt-3">
               {/* <Footer /> */}

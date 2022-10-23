@@ -10,27 +10,28 @@ import logo from './assets/WeandmeLogo.svg'
 
 const Navigation = ({ web3Handler, account }) => {
     return (
-        <Row className="px-4 py-4 mb-3">
-                <Col className="d-none d-lg-block col-5 text-light">
-                    <Image src={logo} className="d-flex" style={{
-                        width: "150px"
-                    }}/>
-                </Col>
-                <Col className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-                        <div className="d-flex justify-content-end" style={{
-                            whiteSpace: "nowrap",
-                            textOverflow: "ellipsis",
-                            color: "white"
-                        }}>
-                            <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Roadmap</a>
-                            <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Story</a>
-                            <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Collections</a>
-                            <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Team</a>
-                            <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>FAQ</a>
-                            <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Rewards</a>
-                            
-                        </div>
-                </Col>
+        <Row className="px-4 pt-4 mt-3">
+            <Col className="d-none d-lg-block col-5 text-light">
+                <Image src={logo} className="d-flex" style={{
+                    width: "150px"
+                }}/>
+            </Col>
+            <Col className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                    <div className="d-flex justify-content-end" style={{
+                        whiteSpace: "nowrap",
+                        textOverflow: "ellipsis",
+                        color: "white",
+                        fontSize: "1.7vh"
+                    }}>
+                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Roadmap</a>
+                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Story</a>
+                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Collections</a>
+                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Team</a>
+                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>FAQ</a>
+                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Rewards</a>
+                        
+                    </div>
+            </Col>
         </Row>
     )
 
