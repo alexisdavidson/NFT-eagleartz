@@ -32,11 +32,16 @@
   padding-right: 20vh;
   margin-top: 15vh;
   margin-bottom: 15vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.rarityrow {
-  padding-left: 35vh;
-  padding-right: 15vh;
+.raritytabletable {
+  width: 40vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .collectionItem {
