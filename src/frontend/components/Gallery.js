@@ -5,6 +5,7 @@ import skull3 from './assets/Image4.svg'
 
 const Gallery = () => {
     return (
+        <Row className="collectionbg">
         <Row className="collection">
             <Row>
                 <h1 className="mb-5" id="werabbits">COLLECTIONS</h1>
@@ -41,6 +42,7 @@ const Gallery = () => {
                     <span className="boldText">SINGLY</span> is a 1/1 made collection of 60. (0.1ETH)
                 </div>
             </Row>
+        </Row>
         </Row>
     );
 }
