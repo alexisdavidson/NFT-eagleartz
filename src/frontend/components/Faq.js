@@ -7,26 +7,40 @@ const Faq = () => {
         rows: [
             {
                 title: <span className="faqTitle">How to buy it on smartphone?</span>,
-                content: <span className="faqContent">NFT is a unique digital identifier that cannot be copied, substituted, or subdivided, that is recorded in a blockchain</span>,
+                content: <span className="faqContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </span>
             },
             {
                 title: <span className="faqTitle">What do I need to do to purchase my first NFT?</span>,
                 content:
-                <span className="faqContent">Skoodle is 4000 skull art NFT collection. Every skoodle is unique.</span>,
+                <span className="faqContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </span>
             },
             {
                 title: <span className="faqTitle">Will there be giveaways?</span>,
-                content: <span className="faqContent">Skoodle NFT is a long journey. First 500 skoodle holders can get whitelist for stage two skulllab project. Stage one 4000 skoodle holders will randomly get free mint chances for future project.
-                <br/>There will be more giveaway and amazing content coming up in the future.</span>,
+                content: <span className="faqContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </span>
             },
             {
                 title: <span className="faqTitle">What is the true future of WE&ME?</span>,
-                content: <span className="faqContent">0.01 for WL holders, 0.03 for presale, 0.03 for public sale. Each person can mint up to 5 skoodles.</span>,
+                content: <span className="faqContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </span>
             },
             {
                 title: <span className="faqTitle">How do I know that an avatar is rare?</span>,
-                content: <span className="faqContent">0.01 for WL holders, 0.03 for presale, 0.03 for public sale. Each person can mint up to 5 skoodles.</span>,
-            },
+                content: <span className="faqContent">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </span>
+            }
         ],
     };
 
