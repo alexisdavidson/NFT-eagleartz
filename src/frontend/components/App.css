@@ -121,3 +121,22 @@ h1, h2, .pinkText {
 .mycontent-top {
   border-bottom: 1px solid white;
 }
+
+.greenLine {
+  color: #098172;
+  height: 1px;
+  align-self: stretch;
+  margin: 0px 0px 61px 0px;
+}
+
+.styleFaqSection {
+  /* border-bottom: 1px solid #00e4a7; */
+}
+
+.faqTitle {
+  /* margin-bottom: 5vh; */
+}
+
+.faqContent {
+  /* margin-bottom: 5vh; */
+}
