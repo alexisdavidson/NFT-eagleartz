@@ -27,7 +27,7 @@ contract NFT is ERC721URIStorage, Ownable, IERC2981 {
     address[] public whitelistedAddressesFreeMint;
 
     bool private revealed = false;
-    string private revealUrl = "ipfs://QmTfq5RWpX3k6dqbu2nGNc533YV1NhrB93imRh1WDnUhWB";
+    string private revealUrl = "ipfs://";
 
     constructor(address recipient) ERC721("Skoodle Skulls", "SKS")
     {
@@ -87,7 +87,7 @@ contract NFT is ERC721URIStorage, Ownable, IERC2981 {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://QmNmBHVHMHt8kvT2VtPDjZ6sjGjyjJ5LBsr1DhnLvzTZss/";
+        return "ipfs://QmcmNkAfGTLcnnQh61DNDvxVfhNdo5f5zK1gFXeEvCnE1B/";
     }
     
     function baseTokenURI() public pure returns (string memory) {

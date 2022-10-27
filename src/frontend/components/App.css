@@ -129,14 +129,27 @@ h1, h2, .pinkText {
   margin: 0px 0px 61px 0px;
 }
 
-.styleFaqSection {
-  /* border-bottom: 1px solid #00e4a7; */
+.faqheader {
+  margin-bottom: 10vh;
 }
 
-.faqTitle {
-  /* margin-bottom: 5vh; */
+.faqtitle {
+  margin-bottom: 5vh;
+  font-size: 1.7rem;
 }
 
-.faqContent {
-  /* margin-bottom: 5vh; */
+.faqdescription {
+  margin-left: 10vh;
+  margin-bottom: 5vh;
+  font-size: 1.2rem;
+  border-left: 2px solid #098172;
+}
+
+.faqarrow {
+  margin-right: 1rem;
+}
+
+.faqrow {
+  margin-top: 3vh;
+  border-bottom: 2px solid #098172;
 }
