@@ -14,7 +14,7 @@ contract NFT is ERC721URIStorage, Ownable, IERC2981 {
     uint public tokenCount;
     uint256 public max_supply;
 
-    uint public amountMintPerAccount = 5;
+    uint public amountMintPerAccount = 10;
     
     address private _recipient;
 
