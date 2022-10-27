@@ -20,7 +20,7 @@ const Navigation = ({ web3Handler, account }) => {
                         whiteSpace: "nowrap",
                         textOverflow: "ellipsis",
                         color: "white",
-                        fontSize: "1.7vh"
+                        fontSize: "0.9rem"
                     }}>
                         <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Roadmap</a>
                         {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Story</a> */}

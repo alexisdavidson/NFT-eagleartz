@@ -101,9 +101,9 @@ function App() {
               </Col>
             </Row>
           <div>
-            <Container fluid="sm" className=" px-3 pt-3">
-              {/* <Footer /> */}
-            </Container>
+            {/* <Container fluid="sm" className=" px-3 pt-3">
+              <Footer />
+            </Container> */}
           </div>
         </div>
     </BrowserRouter>

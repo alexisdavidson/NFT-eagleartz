@@ -21,7 +21,14 @@
   max-width: 170vh;
   margin-left: auto;
   margin-right: auto;
-  font-size: 2.5vh;
+  font-size: 1.5rem;
+}
+
+@media all and (orientation:portrait) 
+{
+  .topimage {
+    max-width: 50vh;
+  }
 }
 
 .werabbits {
@@ -71,7 +78,7 @@
 }
 
 .raritytabletable {
-  width: 40vh;
+  width: 20vh;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
@@ -86,12 +93,12 @@
 
 .collectionItemText {
   margin-top: 4vh;
-  font-size: 5vh;
+  font-size: 3rem;
 }
 
 .CollectionDescription {
   margin-top: 3vh;
-  font-size: 2vh;
+  font-size: 1.2rem;
 }
 
 .boldText {
@@ -101,8 +108,16 @@
 h1, h2, .pinkText {
   color: #ff0fac;
   font-weight: bold;
-  line-height: 7vh;
-  font-size: 5.5vh;
+  line-height: 4rem;
+  font-size: 3.2rem;
+}
+
+@media all and (orientation:portrait) 
+{
+  h1, h2, .pinkText {
+    line-height: 3rem;
+    font-size: 2.5rem;
+  }
 }
 
 .pinkTextColor {
@@ -144,6 +159,7 @@ h1, h2, .pinkText {
   font-size: 1.1rem;
   line-height: 2.1rem;
   border-left: 2px solid #098172;
+  /* transition: height 1s; */
 }
 
 .faqarrow {

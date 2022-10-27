@@ -27,7 +27,7 @@ const Top = ({ web3Handler, account }) => {
                     </Row>
                 </Col>
                 <Col className="col-12 col-lg-6">
-                    <img src={skull} alt="Presentation image"/>
+                    <img className="topimage" src={skull} alt="Presentation image"/>
                 </Col>
             </Row>
         </Row>
