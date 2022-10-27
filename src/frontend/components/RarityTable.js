@@ -9,23 +9,27 @@ const RarityTable = () => {
         <Row className="raritytable">
             <h1 className="mb-5" id="raritytable">RARITY TABLE</h1>
             <Row className="m-auto" style={{fontWeight: "bold", textAlign:"left"}}>
-              <Row>
-                
+              <Row className="rarityrow">
+                <Col className="raritycol">
+                  <span style={{color: "#00e4a7", fontSize: "3rem"}}>70%</span>
+                  <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>common</span>
+                </Col>
+                <Col className="raritycol">
+                  <span style={{color: "#83adff", fontSize: "3rem"}}>15%</span>
+                  <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>rare</span>
+                </Col>
               </Row>
-              <table className="raritytabletable">
-                <tr>
-                  <td><span style={{color: "#00e4a7", fontSize: "3rem"}}>70%</span></td>
-                  <td><span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>common</span></td>
-                  <td><span className="ms-5" style={{color: "#83adff", fontSize: "3rem"}}>15%</span></td>
-                  <td><span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>rare</span></td>
-                </tr>
-                <tr>
-                  <td><span style={{color: "#ffc600", fontSize: "3rem"}}>10%</span></td>
-                  <td><span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>epic</span></td>
-                  <td><span className="ms-5" style={{color: "#ff0000", fontSize: "3rem"}}>5%</span></td>
-                  <td><span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>legendary</span></td>
-                </tr>
-              </table>
+              {/* <Line1 src={`https://file.rendit.io/n/7l74A2cVD9fZhmAD6CGq.svg`} /> */}
+              <Row className="rarityrow">
+                <Col className="raritycol">
+                  <span style={{color: "#ffc600", fontSize: "3rem"}}>10%</span>
+                  <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>epic</span>
+                </Col>
+                <Col className="raritycol">
+                  <span style={{color: "#ff0000", fontSize: "3rem"}}>5%</span>
+                  <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>legendary</span>
+                </Col>
+              </Row>
             </Row>
           <Line1 src={`https://file.rendit.io/n/7l74A2cVD9fZhmAD6CGq.svg`} />
           <p>
