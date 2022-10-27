@@ -5,7 +5,6 @@ import {
 import { Image, Row, Col, Nav, Button } from 'react-bootstrap'
 import icon_di from './images/icon_di.png'
 import icon_tw from './images/icon_tw.png'
-import icon_os from './images/opensea.png'
 import logo from './assets/WeandmeLogo.svg'
 
 const Navigation = ({ web3Handler, account }) => {
