@@ -1,6 +1,14 @@
-import { Row, Button, Badge } from 'react-bootstrap'
+import { Col, Image, Row, Button, Badge } from 'react-bootstrap'
+import logo from './assets/LOGO.png'
+import frame from './assets/Frame.png'
 
 const Mint = ({ web3Handler, account, nft, price, stats }) => {
+    
+    const mintButton = async () => {
+        console.log("mint button")
+        mintNFT()
+    }
+
     const mintNFT = async () => {
         console.log("Mint nft...")
         let priceInWei = await nft.getPrice();
@@ -9,7 +17,34 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
       }
 
     return (
-        <Row>
+        <Row className="p-0 m-0">
+            <Row className="px-4 pt-4 mt-3">
+                <Col className="">
+                    <Image src={logo} className="ms-4 d-flex" style={{
+                        width: "150px"
+                    }}/>
+                </Col>
+                <Col className="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                </Col>
+            </Row>
+            
+            <Row className="mx-auto mt-5">
+                <Row className="m-auto">
+                    <Col className="m-auto col-4" style={{textAlign: "right"}}>
+                        <Image src={frame} className="allyimage" />
+                    </Col>
+                    <Col className="pt-5 bigText col-5">
+                        <p id="collections" className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
+                            First <span className="roseTextColor">FREAKY</span> collection is here!
+                        </p>
+                    </Col>
+                    <Col className="col-3">
+                    </Col>
+                </Row>
+                <Row className="pt-3 mx-auto">
+                    <Button className="mintbutton" onClick={mintButton}>MINT</Button>
+                </Row>
+            </Row>
             <Row className="p-3 text-light g-0">
                 <h1 className="mb-5" id="mint">PUBLIC MINT</h1>
                 <p>Coming Soon...</p>

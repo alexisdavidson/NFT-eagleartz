@@ -92,18 +92,26 @@ function App() {
         <div className="App m-0 p-0">
             <Row className="m-0 p-0">
               <Col className="m-0 p-0">
-                  <div>
-                    <Top web3Handler={web3Handler} account={account} />
-                    {/* <WeRabbits /> */}
-                    {/* <Stats stats={stats} /> */}
-                    <Budget />
-                    <Ally />
-                    <Freaky />
-                    <Singly />
-                    {/* <Mint web3Handler={web3Handler} nft={nft} account={account} price={price} stats={stats} /> */}
-                    <RarityTable />
-                    {/* <Faq /> */}
-                  </div>
+                
+                  <Routes>
+                    <Route path="/" element={
+                    <div>
+                      <Top web3Handler={web3Handler} account={account} />
+                      {/* <WeRabbits /> */}
+                      {/* <Stats stats={stats} /> */}
+                      <Budget />
+                      <Ally />
+                      <Freaky />
+                      <Singly />
+                      {/* <Mint web3Handler={web3Handler} nft={nft} account={account} price={price} stats={stats} /> */}
+                      <RarityTable />
+                      {/* <Faq /> */}
+                    </div>
+                    } />
+                    <Route path="/mint" element={
+                      <Mint />
+                    } />
+                  </Routes>
               </Col>
             </Row>
           <div>
