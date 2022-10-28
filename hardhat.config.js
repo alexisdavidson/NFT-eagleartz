@@ -19,7 +19,14 @@ module.exports = {
      matic: {
        url: process.env.REACT_APP_API_URL_MATIC,
        accounts: [process.env.REACT_APP_PRIVATE_KEY_MATIC]
-     }
+     },
+     goerli: {
+       url: process.env.REACT_APP_API_URL_GOERLI,
+       accounts: ['0x' + process.env.REACT_APP_PRIVATE_KEY_GOERLI],
+       allowUnlimitedContractSize: true,
+       gas: 2100000,
+       gasPrice: 8000000000,
+     },
   },
   paths: {
     artifacts: "./src/backend/artifacts",

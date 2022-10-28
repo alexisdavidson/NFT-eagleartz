@@ -8,7 +8,6 @@ async function main() {
   const NFT = await ethers.getContractFactory("NFT");
   const nft = await NFT.deploy();
 
-  console.log("Deployer address", deployer.getAddress())
   console.log("NFT contract address", nft.address)
   
   saveFrontendFiles(nft, "NFT");
