@@ -2,11 +2,14 @@
 import { Image, Row, Col, Button } from 'react-bootstrap'
 import skull from './assets/FREAKYsample.png'
 import Navigation from './Navbar';
+import { useNavigate } from "react-router-dom";
 
 const Top = ({ web3Handler, account }) => {
+    let navigate = useNavigate(); 
 
     const mintButton = async () => {
         console.log("mint button")
+        navigate("mint");
     }
 
     return (
