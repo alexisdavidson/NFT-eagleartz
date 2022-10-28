@@ -7,7 +7,7 @@ import styled from "styled-components";
 const RarityTable = () => {
     return (
         <Row className="raritytable">
-            <h1 className="mb-5" id="raritytable">RARITY TABLE</h1>
+            <h1 className="mb-5 roseTextColor" id="raritytable">RARITY TABLE</h1>
             <Row className="m-auto" style={{fontWeight: "bold", textAlign:"left"}}>
               <Row className="rarityrow">
                 <Col className="raritycol raritycolleft">
