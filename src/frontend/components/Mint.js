@@ -1,14 +1,26 @@
 import { Col, Image, Row, Button, Badge } from 'react-bootstrap'
+import { useState, useEffect } from 'react'
 import logo from './assets/LOGO.png'
 import frame from './assets/Frame.png'
 
 const Mint = ({ web3Handler, account, nft, price, stats }) => {
+    const [quantity, setQuantity] = useState(1)
     
+    const changeQuantity = (direction) => {
+        if (quantity + direction < 1)
+            setQuantity(1)
+        else if (quantity + direction > 10)
+            setQuantity(10)
+        else
+            setQuantity(quantity + direction)
+    }
+
     const mintButton = async () => {
         console.log("mint button")
         let priceInWei = await nft.getPrice();
         console.log("Price: " + priceInWei + " wei");
-        await nft.mint(1, { value: priceInWei });
+        console.log("Quantity: " + quantity)
+        await nft.mint(quantity, { value: priceInWei });
       }
 
     return (
@@ -34,6 +46,22 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
                         </p>
                     </Col>
                     <Col className="col-3">
+                    </Col>
+                </Row>
+                <Row className="pt-3 mx-auto">
+                    <Col className="d-none d-lg-block col-5">
+                    </Col>
+                    <Col className="d-none d-lg-block col-2">
+                        <span className="buttonquantity" onClick={() => changeQuantity(-1)}>-</span>
+                        <span className="quantity">{quantity}</span>
+                        <span className="buttonquantity" onClick={() => changeQuantity(1)}>+</span>
+                    </Col>
+                    <Col className=" d-sm-block d-xl-none col-12">
+                        <span className="buttonquantity" onClick={() => changeQuantity(-1)}>-</span>
+                        <span className="quantity">{quantity}</span>
+                        <span className="buttonquantity" onClick={() => changeQuantity(1)}>+</span>
+                    </Col>
+                    <Col className="d-none d-lg-block col-5">
                     </Col>
                 </Row>
                 <Row className="pt-3 mx-auto">

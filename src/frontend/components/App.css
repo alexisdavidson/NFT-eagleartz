@@ -175,6 +175,22 @@ h1, h2, .bigText {
   border-color:#bb1f71;
 }
 
+.quantityselector {
+  width: 25rem;
+  margin: auto;
+}
+
+.buttonquantity {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.quantity {
+  font-size: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pinkTextColor {
   color: #ec7dff;
   font-weight: bold;
