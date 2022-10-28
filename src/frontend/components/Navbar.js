@@ -28,6 +28,10 @@ const Navigation = ({ web3Handler, account }) => {
                         {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Team</a> */}
                         {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>FAQ</a> */}
                         {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Rewards</a> */}
+                        <a href="https://twitter.com/weandmeszn" target="_blank" className="py-0 ps-2">
+                            <Image src={icon_tw} width="30" height="30" className="p-0"/>
+                        </a>
+                        
                         
                     </div>
             </Col>
