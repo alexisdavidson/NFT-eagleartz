@@ -36,7 +36,7 @@ const Budget = () => {
                             <img src={a3} />
                         </Row>
                         <Row>
-                            <div className="collectionItemHeader">0.10 ETH</div>
+                            <div className="collectionItemHeader">??? ETH</div>
                         </Row>
                         <Row>
                             <div className="collectionItemText">60</div>

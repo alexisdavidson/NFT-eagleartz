@@ -42,8 +42,7 @@ const RarityTable = () => {
           <p>
             Mint a NFT, and see the rarities at properties tab.
             <br />
-            The rarity table will stay consistent for all collections except
-            SINGLY
+            The rarity table will stay consistent for all collections.
           </p>
         </Row>
     );
