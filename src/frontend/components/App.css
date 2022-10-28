@@ -164,7 +164,7 @@ h1, h2, .bigText {
   }
 }
 
-.mintbutton {
+.mintbuttonpage {
   width: 25rem;
   margin: auto;
   background-color: #ec7dff;
@@ -175,9 +175,25 @@ h1, h2, .bigText {
   border-color:#ec7dff;
 }
 
-.mintbutton:hover, .mintbutton:active, .mintbutton:focus {
+.mintbuttonpage:hover, .mintbutton:active, .mintbutton:focus {
   background-color: #cc58e0;
   border-color:#ec7dff;
+}
+
+.mintbutton {
+  width: 25rem;
+  margin: auto;
+  background-color: #bb1f71;
+  border-radius: 10rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-color:#bb1f71;
+}
+
+.mintbutton:hover, .mintbutton:active, .mintbutton:focus {
+  background-color: #bb1f71;
+  border-color:#bb1f71;
 }
 
 .pinkTextColor {

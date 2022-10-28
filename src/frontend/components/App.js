@@ -81,10 +81,11 @@ function App() {
     const nft = new ethers.Contract(NFTAddress.address, NFTAbi.abi, signer)
     setNFT(nft)
     loadPrice(nft)
+    setLoading(false)
   }
   
   useEffect(() => {
-    fetchOpenseaStats()
+    // fetchOpenseaStats()
   }, [])
 
   return (
@@ -109,7 +110,7 @@ function App() {
                     </div>
                     } />
                     <Route path="/mint" element={
-                      <Mint />
+                      <Mint web3Handler={web3Handler} account={account} nft={nft}/>
                     } />
                   </Routes>
               </Col>

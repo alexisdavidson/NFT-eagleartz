@@ -29,7 +29,7 @@ const Top = ({ web3Handler, account }) => {
                             </p>
                         </Row>
                         <Row>
-                            <Button className="mintbutton" onClick={mintButton}>MINT NOW!</Button>
+                            <Button className="mintbuttonpage" onClick={mintButton}>MINT NOW!</Button>
                         </Row>
                     </Col>
                     <Col className="col-12 col-lg-6">
