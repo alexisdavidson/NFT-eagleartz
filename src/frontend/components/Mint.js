@@ -47,6 +47,9 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
                     <Col className="d-none d-lg-block m-auto col-12 col-lg-4" style={{textAlign: "right"}}>
                         <Image src={frame} className="allyimage" />
                     </Col>
+                    <Col className="d-sm-block d-xl-none m-auto">
+                        <Image src={frame} className="allyimage" />
+                    </Col>
                     <Col className="pt-5 bigText col-12 col-lg-5">
                         <p className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
                             First <span className="roseTextColor">FREAKY</span> collection is here!
