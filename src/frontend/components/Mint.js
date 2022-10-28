@@ -30,11 +30,11 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
             
             <Row className="mx-auto mt-5">
                 <Row className="m-auto">
-                    <Col className="m-auto col-4" style={{textAlign: "right"}}>
+                    <Col className="d-none d-lg-block m-auto col-12 col-lg-4" style={{textAlign: "right"}}>
                         <Image src={frame} className="allyimage" />
                     </Col>
-                    <Col className="pt-5 bigText col-5">
-                        <p id="collections" className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
+                    <Col className="pt-5 bigText col-12 col-lg-5">
+                        <p className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
                             First <span className="roseTextColor">FREAKY</span> collection is here!
                         </p>
                     </Col>

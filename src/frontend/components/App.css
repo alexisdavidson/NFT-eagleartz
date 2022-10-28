@@ -5,6 +5,9 @@
   color: white;
   font-family: Montserrat;
 }
+body {
+  background-color: black;
+}
 
 .topBg {
   background-image: url("./assets/Heroimagebackground.png");
