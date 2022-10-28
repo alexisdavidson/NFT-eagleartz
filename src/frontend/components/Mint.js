@@ -8,8 +8,7 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
         console.log("mint button")
         let priceInWei = await nft.getPrice();
         console.log("Price: " + priceInWei + " wei");
-        // await nft.mint({ value: priceInWei }, 1)
-        await nft.mint(1)
+        await nft.mint(1, { value: priceInWei });
       }
 
     return (
