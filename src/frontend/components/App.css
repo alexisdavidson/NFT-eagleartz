@@ -108,9 +108,16 @@
   padding-right: 8vh;
 }
 
+.collectionItemHeader {
+  margin-top: 2vh;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
 .collectionItemText {
-  margin-top: 4vh;
+  margin-top: 0vh;
   font-size: 3rem;
+  font-weight: bold;
 }
 
 .CollectionDescription {
@@ -154,6 +161,11 @@ h1, h2, .bigText {
 
 .pinkTextColor {
   color: #ec7dff;
+  font-weight: bold;
+}
+
+.blueTextColor {
+  color: #00d1ff;
   font-weight: bold;
 }
 

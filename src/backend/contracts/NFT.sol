@@ -11,6 +11,8 @@ contract NFT is ERC721A, Ownable {
     string public uriSuffix = '.json';
     uint256 public max_supply = 10000;
     uint256 public amountMintPerAccount = 10;
+
+    uint256 public price = 0.05 ether;
     
     event MintSuccessful(address user);
 
@@ -27,10 +29,14 @@ contract NFT is ERC721A, Ownable {
 
     function getPrice() view public returns(uint) {
         if (msg.sender != owner()) {
-            return 0.03 ether;
+            return price;
         }
 
         return 0 ether; // No minting price for owner
+    }
+
+    function setPrice(uint256 _price) public onlyOwner {
+        price = _price;
     }
 
     function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {
