@@ -8,7 +8,8 @@ import Top from './Top';
 import WeRabbits from './WeRabbits';
 import RarityTable from './RarityTable';
 import Stats from './Stats';
-import Gallery from './Gallery';
+import Budget from './Budget';
+import Ally from './Ally';
 import Roadmap from './Roadmap';
 import About from './About';
 import Family from './Family';
@@ -93,7 +94,8 @@ function App() {
                     <Top web3Handler={web3Handler} account={account} />
                     {/* <WeRabbits /> */}
                     {/* <Stats stats={stats} /> */}
-                    <Gallery />
+                    <Budget />
+                    <Ally />
                     {/* <Mint web3Handler={web3Handler} nft={nft} account={account} price={price} stats={stats} /> */}
                     <RarityTable />
                     {/* <Faq /> */}

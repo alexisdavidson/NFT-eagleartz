@@ -1,17 +1,10 @@
 
 import { Image, Row, Col, Button } from 'react-bootstrap'
 import skull from './assets/FREAKYsample.png'
-import Navigation from './Navbar';
 
-const Top = ({ web3Handler, account }) => {
-
-    const mintButton = async () => {
-        console.log("mint button")
-    }
-
+const Ally = () => {
     return (
         <Row className="topBg">
-            <Navigation web3Handler={web3Handler} account={account} />
             <Row className="top pe-0">
                 <Row>
                     <Col className="my-auto col-12 col-lg-6 text-light">
@@ -26,7 +19,6 @@ const Top = ({ web3Handler, account }) => {
                             </p>
                         </Row>
                         <Row>
-                            <Button className="mintbutton" onClick={mintButton}>MINT NOW!</Button>
                         </Row>
                     </Col>
                     <Col className="col-12 col-lg-6">
@@ -37,4 +29,4 @@ const Top = ({ web3Handler, account }) => {
         </Row>
     );
 }
-export default Top
+export default Ally
