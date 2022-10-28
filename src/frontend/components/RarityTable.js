@@ -10,24 +10,31 @@ const RarityTable = () => {
             <h1 className="mb-5 roseTextColor" id="raritytable">RARITY TABLE</h1>
             <Row className="m-auto" style={{fontWeight: "bold", textAlign:"left"}}>
               <Row className="rarityrow">
-                <Col className="raritycol raritycolleft">
+                <Col className="d-none d-lg-block col-lg-4">
+                </Col>
+                <Col className="raritycol">
                   <span style={{color: "#00e4a7", fontSize: "3rem"}}>70%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>common</span>
                 </Col>
-                <Col className="raritycol raritycolright">
+                <Col className="raritycol">
                   <span style={{color: "#83adff", fontSize: "3rem"}}>15%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>rare</span>
                 </Col>
+                <Col className="d-none d-lg-block col-lg-4">
+                </Col>
               </Row>
-              {/* <Line1 src={`https://file.rendit.io/n/7l74A2cVD9fZhmAD6CGq.svg`} /> */}
               <Row className="rarityrow">
-                <Col className="raritycol raritycolleft">
+                <Col className="d-none d-lg-block col-lg-4">
+                </Col>
+                <Col className="raritycol">
                   <span style={{color: "#ffc600", fontSize: "3rem"}}>10%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>epic</span>
                 </Col>
-                <Col className="raritycol raritycolright">
+                <Col className="raritycol">
                   <span style={{color: "#ff0000", fontSize: "3rem"}}>5%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>legendary</span>
+                </Col>
+                <Col className="d-none d-lg-block col-lg-4">
                 </Col>
               </Row>
             </Row>

@@ -41,7 +41,7 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
                     {account ? (
                         <Button className="mintbutton" onClick={mintButton}>MINT</Button>
                     ) : (
-                        <Button className="mintbutton" onClick={web3Handler}>MINT</Button>
+                        <Button className="mintbutton" onClick={web3Handler}>CONNECT</Button>
                     )}
                 </Row>
             </Row>
