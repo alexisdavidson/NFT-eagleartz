@@ -164,6 +164,16 @@ h1, h2, .bigText {
   font-weight: bold;
 }
 
+.roseTextColor {
+  color: #ff007f;
+  font-weight: bold;
+}
+
+.greenTextColor {
+  color: #1cff08;
+  font-weight: bold;
+}
+
 .blueTextColor {
   color: #00d1ff;
   font-weight: bold;

@@ -10,6 +10,8 @@ import RarityTable from './RarityTable';
 import Stats from './Stats';
 import Budget from './Budget';
 import Ally from './Ally';
+import Freaky from './Freaky';
+import Singly from './Singly';
 import Roadmap from './Roadmap';
 import About from './About';
 import Family from './Family';
@@ -96,6 +98,8 @@ function App() {
                     {/* <Stats stats={stats} /> */}
                     <Budget />
                     <Ally />
+                    <Freaky />
+                    <Singly />
                     {/* <Mint web3Handler={web3Handler} nft={nft} account={account} price={price} stats={stats} /> */}
                     <RarityTable />
                     {/* <Faq /> */}

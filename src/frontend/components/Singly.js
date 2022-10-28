@@ -1,9 +1,9 @@
 
 import { Image, Row, Col, Button } from 'react-bootstrap'
-import skull from './assets/r1.png'
-import a1 from './assets/a1.png'
+import skull from './assets/r3.png'
+import a3 from './assets/a3.png'
 
-const Ally = () => {
+const Singly = () => {
     return (
         <Row className="">
             <Row className="top mx-auto mt-5">
@@ -11,17 +11,17 @@ const Ally = () => {
                     <Col className="m-auto col-12 col-lg-6 text-light">
                         <Row className="m-auto" style={{width: "auto"}}>
                             <Col className="m-auto" style={{textAlign: "left"}}>
-                                <Image src={a1} className="allyimage" />
+                                <Image src={a3} className="allyimage" />
                             </Col>
                         </Row>
                         <Row className="pt-3 bigText">
                             <p className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
-                                <span className="blueTextColor">ALLY COLLECTIONS</span> can be minted for free as long as you have we coins, which you can earn with your reference link.
+                                <span className="greenTextColor">SINGLY COLLECTIONS</span> are the most special one. They are made 1/1 and are not generative. <span className="greenTextColor">ONLY 60 NFTs</span> every season.
                             </p>
                         </Row>
-                        <Row className="pt-3">
+                        <Row className="pt-5">
                             <p className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
-                                *10 000 every season, generative<br/>
+                                *has traits that are not repeated.<br/>
                                 <span style={{fontWeight: "bold", fontStyle: "italic"}}>COMING SOON!</span>
                             </p>
                         </Row>
@@ -36,4 +36,4 @@ const Ally = () => {
         </Row>
     );
 }
-export default Ally
+export default Singly
