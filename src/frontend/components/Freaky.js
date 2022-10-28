@@ -8,7 +8,7 @@ const Freaky = () => {
         <Row className="">
             <Row className="top mx-auto mt-5">
                 <Row className="m-auto" style={{width: "auto"}}>
-                    <Col className="col-12 col-lg-6">
+                    <Col className="d-none d-lg-block col-12 col-lg-6">
                         <img className="topimage" src={skull} alt="Presentation image"/>
                     </Col>
                     <Col className="m-auto col-12 col-lg-6 text-light">
@@ -31,6 +31,9 @@ const Freaky = () => {
                         </Row>
                         <Row>
                         </Row>
+                    </Col>
+                    <Col className=" d-sm-block d-xl-none col-12 col-lg-6">
+                        <img className="topimage" src={skull} alt="Presentation image"/>
                     </Col>
                 </Row>
             </Row>
