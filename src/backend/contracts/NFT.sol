@@ -19,7 +19,7 @@ contract NFT is ERC721A, Ownable {
     constructor() ERC721A("FREAKY RABBIT", "FR") { }
 
     function mint(uint256 _quantity) external payable {
-        require(msg.value >= getPrice(), "Not enough ETH sent; check price!");
+        require(msg.value >= getPrice() * _quantity, "Not enough ETH sent; check price!");
         require(balanceOf(msg.sender) + _quantity <= amountMintPerAccount, 'Each address may only mint x NFTs!');
 
         _mint(msg.sender, _quantity);

@@ -2,9 +2,16 @@ import { Col, Image, Row, Button, Badge } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
 import logo from './assets/LOGO.png'
 import frame from './assets/Frame.png'
+import { useNavigate } from "react-router-dom";
 
 const Mint = ({ web3Handler, account, nft, price, stats }) => {
+    let navigate = useNavigate(); 
     const [quantity, setQuantity] = useState(1)
+
+    const goHome = async () => {
+        console.log("go home")
+        navigate("/");
+    }
     
     const changeQuantity = (direction) => {
         if (quantity + direction < 1)
@@ -17,7 +24,7 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
 
     const mintButton = async () => {
         console.log("mint button")
-        let priceInWei = await nft.getPrice();
+        let priceInWei = await nft.getPrice() * quantity;
         console.log("Price: " + priceInWei + " wei");
         console.log("Quantity: " + quantity)
         await nft.mint(quantity, { value: priceInWei });
@@ -27,7 +34,7 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
         <Row className="p-0 m-0">
             <Row className="px-4 pt-4 mt-3">
                 <Col className="">
-                    <Image src={logo} className="ms-4 d-flex" style={{
+                    <Image src={logo} className="logo ms-4 d-flex" onClick={goHome} style={{
                         width: "150px"
                     }}/>
                 </Col>

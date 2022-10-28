@@ -9,6 +9,10 @@ body {
   background-color: black;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .topBg {
   background-image: url("./assets/Heroimagebackground.png");
   background-repeat: no-repeat;
