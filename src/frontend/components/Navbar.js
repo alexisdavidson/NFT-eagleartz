@@ -22,12 +22,12 @@ const Navigation = ({ web3Handler, account }) => {
                         color: "white",
                         fontSize: "0.9rem"
                     }}>
-                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Roadmap</a>
+                        <a href="#raritytable" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Rarity</a>
                         {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Story</a> */}
-                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Collections</a>
+                        <a href="#collections" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Collections</a>
                         {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Team</a> */}
-                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>FAQ</a>
-                        <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Rewards</a>
+                        {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>FAQ</a> */}
+                        {/* <a href="#roadmap" style={{ color: "white", textDecoration: "none", paddingRight: "15px" }}>Rewards</a> */}
                         
                     </div>
             </Col>

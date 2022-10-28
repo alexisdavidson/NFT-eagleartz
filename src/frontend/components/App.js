@@ -91,12 +91,12 @@ function App() {
               <Col className="m-0 p-0">
                   <div>
                     <Top web3Handler={web3Handler} account={account} />
-                    <WeRabbits />
+                    {/* <WeRabbits /> */}
                     {/* <Stats stats={stats} /> */}
                     <Gallery />
                     {/* <Mint web3Handler={web3Handler} nft={nft} account={account} price={price} stats={stats} /> */}
                     <RarityTable />
-                    <Faq />
+                    {/* <Faq /> */}
                   </div>
               </Col>
             </Row>

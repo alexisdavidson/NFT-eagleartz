@@ -122,8 +122,7 @@
   font-weight: bold;
 }
 
-h1, h2, .pinkText {
-  color: #ff0fac;
+h1, h2, .bigText {
   font-weight: bold;
   line-height: 4rem;
   font-size: 3.2rem;
@@ -137,8 +136,24 @@ h1, h2, .pinkText {
   }
 }
 
+.mintbutton {
+  width: 25rem;
+  margin: auto;
+  background-color: #ec7dff;
+  border-radius: 10rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-color:#ec7dff;
+}
+
+.mintbutton:hover, .mintbutton:active, .mintbutton:focus {
+  background-color: #cc58e0;
+  border-color:#ec7dff;
+}
+
 .pinkTextColor {
-  color: #ff0fac;
+  color: #ec7dff;
   font-weight: bold;
 }
 
