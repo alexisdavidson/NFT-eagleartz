@@ -10,22 +10,22 @@ const RarityTable = () => {
             <h1 className="mb-5" id="raritytable">RARITY TABLE</h1>
             <Row className="m-auto" style={{fontWeight: "bold", textAlign:"left"}}>
               <Row className="rarityrow">
-                <Col className="raritycol">
+                <Col className="raritycol raritycolleft">
                   <span style={{color: "#00e4a7", fontSize: "3rem"}}>70%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>common</span>
                 </Col>
-                <Col className="raritycol">
+                <Col className="raritycol raritycolright">
                   <span style={{color: "#83adff", fontSize: "3rem"}}>15%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>rare</span>
                 </Col>
               </Row>
               {/* <Line1 src={`https://file.rendit.io/n/7l74A2cVD9fZhmAD6CGq.svg`} /> */}
               <Row className="rarityrow">
-                <Col className="raritycol">
+                <Col className="raritycol raritycolleft">
                   <span style={{color: "#ffc600", fontSize: "3rem"}}>10%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>epic</span>
                 </Col>
-                <Col className="raritycol">
+                <Col className="raritycol raritycolright">
                   <span style={{color: "#ff0000", fontSize: "3rem"}}>5%</span>
                   <span className="ms-3" style={{color: "rgba(255, 255, 255, 0.8)", fontSize: "1.2rem"}}>legendary</span>
                 </Col>

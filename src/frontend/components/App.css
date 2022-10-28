@@ -97,9 +97,27 @@
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
   text-align: left;
+  width: 25vh;
+}
+
+.raritycolleft {
+  margin-left: auto;
+}
+.raritycolright {
+  margin-right: auto;
+}
+
+@media all and (orientation:portrait) 
+{
+  .raritycolleft {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .raritycolright {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .collectionItem {
