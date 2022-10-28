@@ -137,7 +137,7 @@ h1, h2, .bigText {
 
 @media all and (orientation:portrait) 
 {
-  h1, h2, .pinkText {
+  h1, h2, .bigText {
     line-height: 3rem;
     font-size: 2.5rem;
   }
@@ -225,4 +225,12 @@ h1, h2, .bigText {
   overflow: visible;
   height:auto;
   margin-top: 3vh;
+}
+
+.allyimage {
+  width: 25vh;
+  height: auto;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
 }
