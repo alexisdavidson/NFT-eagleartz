@@ -1,6 +1,6 @@
 
 import { Image, Row, Col, Button } from 'react-bootstrap'
-import skull from './assets/ExampleRABBIT 1.png'
+import skull from './assets/r1.png'
 import a1 from './assets/a1.png'
 
 const Ally = () => {
