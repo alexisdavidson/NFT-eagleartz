@@ -15,7 +15,7 @@ const Ally = () => {
                             </Col>
                         </Row>
                         <Row className="pt-3 bigText">
-                            <p className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
+                            <p id="collections" className="p-0" style={{textAlign: "left", fontWeight: "normal"}}>
                                 <span className="blueTextColor">ALLY COLLECTIONS</span> can be minted for free as long as you have we coins, which you can earn with your reference link.
                             </p>
                         </Row>
