@@ -5,8 +5,9 @@ async function main() {
   console.log("Deploying contracts with the account:", deployer.address);
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
+  const teamWallet = "0xb132DBC8c868222Aa5aaE978288BE594cca94dD7" // mainnet
   const NFT = await ethers.getContractFactory("NFT");
-  const nft = await NFT.deploy();
+  const nft = await NFT.deploy(teamWallet);
 
   console.log("NFT contract address", nft.address)
   

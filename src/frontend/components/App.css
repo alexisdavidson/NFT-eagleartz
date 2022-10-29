@@ -172,6 +172,7 @@ h1, h2, .bigText {
   font-size: 1.4rem;
   font-weight: bold;
   border-color:#bb1f71;
+  margin-bottom: 4vh;
 }
 
 .mintbutton:hover, .mintbutton:active, .mintbutton:focus {

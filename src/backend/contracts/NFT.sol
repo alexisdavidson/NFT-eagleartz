@@ -16,7 +16,10 @@ contract NFT is ERC721A, Ownable {
     
     event MintSuccessful(address user);
 
-    constructor() ERC721A("FREAKY RABBIT", "FR") { }
+    constructor(address _teamWallet) ERC721A("FREAKY RABBIT", "FR")
+    { 
+        transferOwnership(_teamWallet);
+    }
 
     function mint(uint256 _quantity) external payable {
         require(msg.value >= getPrice() * _quantity, "Not enough ETH sent; check price!");
