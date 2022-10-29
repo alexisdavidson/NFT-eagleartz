@@ -27,6 +27,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import NFTAbi from '../contractsData/NFT.json'
 import NFTAddress from '../contractsData/NFT-address.json'
  
+
 function App() {
   const [account, setAccount] = useState(null)
   const [nft, setNFT] = useState({})

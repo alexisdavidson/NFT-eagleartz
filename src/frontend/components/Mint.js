@@ -3,8 +3,12 @@ import { useState, useEffect } from 'react'
 import logo from './assets/LOGO.png'
 import frame from './assets/Frame.png'
 import { useNavigate } from "react-router-dom";
+import { ethers } from 'ethers'
 
-const Mint = ({ web3Handler, account, nft, price, stats }) => {
+const fromWei = (num) => ethers.utils.formatEther(num)
+const toWei = (num) => ethers.utils.parseEther(num.toString())
+
+const Mint = ({ web3Handler, account, nft, stats }) => {
     let navigate = useNavigate(); 
     const [quantity, setQuantity] = useState(1)
 
@@ -24,10 +28,10 @@ const Mint = ({ web3Handler, account, nft, price, stats }) => {
 
     const mintButton = async () => {
         console.log("mint button")
-        let priceInWei = await nft.getPrice() * quantity;
-        console.log("Price: " + priceInWei + " wei");
+        let price = fromWei(await nft.getPrice()) * quantity;
+        console.log("Price: " + price + " wei");
         console.log("Quantity: " + quantity)
-        await nft.mint(quantity, { value: priceInWei });
+        await nft.mint(quantity, { value: toWei(price) });
       }
 
     return (
