@@ -21,7 +21,7 @@ contract NFT is ERC721A, Ownable {
         transferOwnership(_teamWallet);
     }
     
-    function _startTokenId() internal view override eturns (uint256) {
+    function _startTokenId() internal view override returns (uint256) {
 
         return 1;
 
