@@ -20,6 +20,12 @@ contract NFT is ERC721A, Ownable {
     { 
         transferOwnership(_teamWallet);
     }
+    
+    function _startTokenId() internal view override eturns (uint256) {
+
+        return 1;
+
+    }
 
     function mint(uint256 _quantity) external payable {
         require(msg.value >= getPrice() * _quantity, "Not enough ETH sent; check price!");
