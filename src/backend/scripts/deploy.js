@@ -6,7 +6,7 @@ async function main() {
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
   // const teamWallet = "0xb132DBC8c868222Aa5aaE978288BE594cca94dD7" // mainnet
-  const teamWallet = "" // goerli
+  const teamWallet = "0x31E9E4c0322f795236aE1Bf92bB67cC59C02dD72" // goerli eagle team
   const NFT = await ethers.getContractFactory("NFT");
   const nft = await NFT.deploy(teamWallet);
 
