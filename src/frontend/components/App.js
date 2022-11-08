@@ -79,6 +79,7 @@ function App() {
 }
 
   const loadContracts = async (signer) => {
+    console.log("Load nft " + NFTAddress.address)
     const nft = new ethers.Contract(NFTAddress.address, NFTAbi.abi, signer)
     setNFT(nft)
     loadPrice(nft)

@@ -22,9 +22,7 @@ contract NFT is ERC721A, Ownable {
     }
     
     function _startTokenId() internal view override returns (uint256) {
-
         return 1;
-
     }
 
     function mint(uint256 _quantity) external payable {
