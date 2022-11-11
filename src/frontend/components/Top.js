@@ -25,7 +25,7 @@ const Top = ({ web3Handler, account }) => {
                         </Row>
                         <Row>
                             <p className="p-0" style={{textAlign: "left"}}>
-                                WE&ME is an art project, related to streetwear and unexpected airdrops.
+                                {/* WE&ME is an art project, related to streetwear and unexpected airdrops. */}
                             </p>
                         </Row>
                         <Row>
