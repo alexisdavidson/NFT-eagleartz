@@ -5,7 +5,7 @@ import {
 import { Image, Row, Col, Nav, Button } from 'react-bootstrap'
 import icon_di from './images/icon_di.png'
 import icon_tw from './images/icon_tw.png'
-import logo from './assets/LOGO.png'
+import logo from './assets/LOGO.svg'
 import { useNavigate } from "react-router-dom";
 
 const Navigation = ({ web3Handler, account }) => {

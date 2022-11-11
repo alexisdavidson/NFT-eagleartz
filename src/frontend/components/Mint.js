@@ -1,7 +1,7 @@
 import { Col, Image, Row, Button, Badge } from 'react-bootstrap'
 import { useState, useEffect } from 'react'
-import logo from './assets/LOGO.png'
-import frame from './assets/Frame.png'
+import logo from './assets/LOGO.svg'
+import frame from './assets/Frame.svg'
 import { useNavigate } from "react-router-dom";
 import { ethers } from 'ethers'
 

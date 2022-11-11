@@ -1,7 +1,7 @@
 
 import { Image, Row, Col, Button } from 'react-bootstrap'
 import skull from './assets/r2.png'
-import a2 from './assets/a2.png'
+import a2 from './assets/a2.svg'
 
 const Freaky = () => {
     return (

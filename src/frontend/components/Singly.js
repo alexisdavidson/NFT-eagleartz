@@ -1,7 +1,7 @@
 
 import { Image, Row, Col, Button } from 'react-bootstrap'
 import skull from './assets/r3.png'
-import a3 from './assets/a3.png'
+import a3 from './assets/a3.svg'
 
 const Singly = () => {
     return (
