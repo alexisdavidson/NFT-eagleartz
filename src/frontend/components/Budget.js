@@ -11,7 +11,7 @@ const Budget = () => {
                     <h1 className="mb-5" id="werabbits">Stop being limited. Collections launching for <span className="blueTextColor">EVERY BUDGET.</span></h1>
                     <Col className="collectionItem col-12 col-lg-6 col-xl-4">
                         <Row>
-                            <img src={a1} />
+                            <img src={a2} />
                         </Row>
                         <Row>
                             <div className="collectionItemHeader">FREE</div>
@@ -22,7 +22,7 @@ const Budget = () => {
                     </Col>
                     <Col className="collectionItem col-12 col-lg-6 col-xl-4">
                         <Row>
-                            <img src={a2} />
+                            <img src={a1} />
                         </Row>
                         <Row>
                             <div className="collectionItemHeader">0.05 ETH</div>
