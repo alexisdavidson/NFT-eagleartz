@@ -35,6 +35,8 @@ function App() {
   const [stats, setStats] = useState([])
   const [loading, setLoading] = useState(true)
 
+  let hideWebsiteWithPlaceholder = true
+
   // MetaMask Login/Connect
   const web3Handler = async () => {
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
@@ -87,8 +89,18 @@ function App() {
   }
   
   useEffect(() => {
+    if (hideWebsiteWithPlaceholder)
+      return
     // fetchOpenseaStats()
   }, [])
+
+  if (hideWebsiteWithPlaceholder) {
+    return (
+      <div className="App mt-5">
+        We are launching soon.
+      </div>
+    )
+  }
 
   return (
     <BrowserRouter>
